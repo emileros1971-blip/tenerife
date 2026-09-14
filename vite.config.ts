@@ -8,8 +8,8 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   vite: {
-    // GitHub Pages serves this repository from /tenerife/.
-    base: "/tenerife/",
+    // The custom domain serves this repository from the domain root.
+    base: "/",
   },
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
